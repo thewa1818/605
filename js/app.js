@@ -77,3 +77,16 @@ inoki.push("元気があればなんでもできる");
 console.log(inoki);
 
 console.log(`元気ですか！${inoki[4]}`);
+
+let aizawa = [
+  "かほ",
+  "えみこ",
+  "ゆり",
+  "ロン",
+]
+
+console.log(aizawa.length);
+
+for (let i = 0; i < aizawa.length; i++){
+  console.log(`ランキング${i+1}位${aizawa[i]}さん`);
+}
