@@ -76,7 +76,10 @@ inoki.push("元気があればなんでもできる");
 
 inoki[5]=("パワー");
 
+delete inoki[5];
+
 console.log(inoki);
+
 
 console.log(`元気ですか！${inoki[4]}`);
 
@@ -111,3 +114,9 @@ A[1][0] = "first";
 console.table(A);
 
 console.log(A[1][2]);
+
+console.log(A[0][1]+A[2][0]);
+
+let mmm = inoki.concat(aizawa);
+
+console.log(mmm);
