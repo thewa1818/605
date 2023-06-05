@@ -92,3 +92,18 @@ aizawa.splice(3,0,"しょうた");
 for (let i = 0; i < aizawa.length; i++){
   console.log(`ランキング${i+1}位${aizawa[i]}さん`);
 }
+
+//多次元配列
+
+const A = [
+  ["a","b","c"],
+  ["1","2","3"],
+  ["d","e","f"],
+  ["4","5","6"],
+]
+
+console.table(A);
+
+A[1][0] = "first";
+
+console.table(A);
