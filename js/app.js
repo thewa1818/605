@@ -87,6 +87,8 @@ let aizawa = [
 
 console.log(aizawa.length);
 
+aizawa.splice(3,0,"しょうた");
+
 for (let i = 0; i < aizawa.length; i++){
   console.log(`ランキング${i+1}位${aizawa[i]}さん`);
 }
