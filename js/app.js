@@ -22,6 +22,8 @@ $(".test").on("click", function () {
 
 });
 
+//配列
+
 const scores = [10,20,30,40,50,60]
 
 console.log(scores);
@@ -56,3 +58,22 @@ console.log(scores);
 $(".aaaa").click(function(){
   $(this).html(scores);
 })
+
+//連想配列
+
+let m={ name:"相澤",age:23};
+
+console.log(m.name);
+console.log(m.age);
+
+const inoki = ["いち","に","さん","だーー！！"];
+
+console.log(inoki);
+
+console.log(inoki[2]);
+
+inoki.push("元気があればなんでもできる");
+
+console.log(inoki);
+
+console.log(`元気ですか！${inoki[4]}`);
