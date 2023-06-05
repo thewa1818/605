@@ -48,6 +48,9 @@ scores.shift();
 
 console.log(scores);
 
+scores.splice(1,2,25);
+
+console.log(scores);
 
 
 $(".aaaa").click(function(){
