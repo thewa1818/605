@@ -74,6 +74,8 @@ console.log(inoki[2]);
 
 inoki.push("元気があればなんでもできる");
 
+inoki[5]=("パワー");
+
 console.log(inoki);
 
 console.log(`元気ですか！${inoki[4]}`);
@@ -107,3 +109,5 @@ console.table(A);
 A[1][0] = "first";
 
 console.table(A);
+
+console.log(A[1][2]);
