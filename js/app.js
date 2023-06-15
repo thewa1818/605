@@ -142,8 +142,27 @@ for (let i = 0; i < omi.length; i ++){
 const city = ["渋谷","練馬","六本木","表参道","曙橋","新宿"];
 
 let oo = ''
-for (let i = 1; i <= city.length; i++) {
+for (let i = 1; i < city.length; i++) {
     oo += `<option id="tokyo">住所: 東京都${city[i]}</option>`
 };
 
 $("#tokyo").html(oo)
+
+
+const test1=["メロン","いちご","スイカ","みかん","ぶどう"];
+
+$("#btn").on("click",function(){
+  for(let i = 0 ; i < test1.length; i++){
+    console.log(`好きな食べ物は${test1[i]}です`);
+  }
+});
+
+// const test1=["メロン","いちご","スイカ","みかん","ぶどう"];
+
+// $("#btn").on("click",function(){
+//   test1.forEach(function(){
+//     console.log(test1[1]);
+//   })
+// });
+
+
